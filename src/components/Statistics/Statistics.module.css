@@ -1,0 +1,37 @@
+.statistics {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  height: 170px;
+  background-color: lightgray;
+}
+.title {
+  color: grey;
+  font-size: 26px;
+}
+.stat_list > li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  color: white;
+  box-shadow: 1px 3px 3px black;
+}
+.stat_list {
+  display: flex;
+  height: 80px;
+  margin-bottom: 0;
+}
+.label {
+  font-size: 14px;
+  font-weight: 400;
+}
+.percentage {
+  font-size: 18px;
+  font-weight: 700;
+}
