@@ -16,6 +16,9 @@ code {
 ul {
   padding-inline-start: 0;
 }
+li {
+  list-style-type: none;
+}
 .main-container {
   width: 100%;
   display: flex;
