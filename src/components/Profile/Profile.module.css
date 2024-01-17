@@ -2,6 +2,7 @@
   margin-left: 40px;
   margin-top: 40px;
   width: 330px;
+  max-height: 450px;
   border-radius: 30px;
   background-color: antiquewhite;
   display: flex;

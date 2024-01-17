@@ -1,0 +1,38 @@
+.transaction_history {
+  margin-top: 40px;
+  width: 390px;
+  margin-left: 40px;
+  display: block;
+  box-shadow: 1px 1px 1px 1px black;
+  border: none;
+  outline: none;
+  border-spacing: 0;
+}
+.transaction_header {
+  background-color: blue;
+  color: white;
+}
+.header_item {
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  border-right: 1px solid white;
+}
+.header_item:last-child {
+  border-right: 0;
+}
+
+.item:nth-child(odd) {
+  background-color: gray;
+}
+.item:nth-child(even) {
+  background-color: lightgray;
+}
+.item_data {
+  text-align: center;
+  border-right: 1px solid white;
+  height: 30px;
+}
+.item_data:last-child {
+  border-right: 0;
+}
