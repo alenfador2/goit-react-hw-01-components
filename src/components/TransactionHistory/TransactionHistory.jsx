@@ -28,8 +28,4 @@ export default TransactionHistory
 
 TransactionHistory.propTypes = {
     items: PropTypes.array.isRequired,
-    id: PropTypes.string.isRequired,
-    type: PropTypes.string.isRequired,
-    amount: PropTypes.number.isRequired,
-    currency: PropTypes.string.isRequired
 }
